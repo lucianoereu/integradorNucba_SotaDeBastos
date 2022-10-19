@@ -29,8 +29,9 @@ header{
     height: 230px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     opacity: 0.8;
+    gap: 0;
 }
 
 .logo{
@@ -43,7 +44,7 @@ header{
     width: 400px;
     height: 540px;
     position: relative;
-    top: -90px;
+    top: 60px;
 }
 
 .nav-bar{
@@ -277,17 +278,24 @@ footer p span{
     letter-spacing: 2px;
 }
 /************ page info  *********/
-#info-page{
-    margin-top: -100px;
-    gap: 40px;
+header h1{
+    text-align: center;
+    font-family: var(--kaushan);
+    font-size: 55px;
+    color: var(--red);
 }
+header p{
+    color: var(--black);
+    font: 200;
+    letter-spacing: 2px;
+    font-family: var(--windsong);
+}
+
 #info-page #articulos{
     display: grid;
-    grid-template-columns: 600px 600px;
-    width: 1200px;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
+    grid: auto/  600px 600px;
+    margin-left: 115px;
+    grid-gap:  60px 0;
 }
 #info-page .articulos-sombreros{
     background-color: rgb(229, 229, 229);
@@ -351,4 +359,54 @@ footer p span{
     color: var(--orange-int);
     scale: 1.2;
     transition: 1s;
+}
+/***** una manera de andar  ****/
+#tienda{
+    display: grid;
+    grid:auto/ 200px 200px 200px 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.container-tienda div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+.container-tienda .front img{
+    width: 180px;
+    border-radius: 15px;
+}
+.container-tienda .front{
+    transform: perspective(500px) rotateY(0deg);
+}
+.container-tienda:hover .front{
+    transform: perspective(500px) rotateY(180deg);
+}
+.container-tienda .back{
+    position: absolute;
+    transform: perspective(500px) rotateY(180deg);
+    display: flex;
+    width: 200px;
+    gap:10px;
+}
+
+.container-tienda .back p{
+    font-size: 15px;
+    color: var(--orange);
+    font-family: var(--kaushan);
+    text-align: center;
+}
+.container-tienda:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}
+.container-tienda .back a{
+    font-size: 20px;
+    color: var(--orange-int);
+    font-family: var(--kaushan);
 }
