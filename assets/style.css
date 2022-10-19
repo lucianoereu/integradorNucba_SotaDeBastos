@@ -349,6 +349,6 @@ footer p span{
 .articulos-sombreros-texto a:hover{
     background-color: var(--orange);
     color: var(--orange-int);
-    scale: 1.4;
+    scale: 1.2;
     transition: 1s;
 }
