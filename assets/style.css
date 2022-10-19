@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Source+Sans+Pro:wght@200;300;400&display=swap');
 :root{
     --orange:#f39c12;
     --white:#e1e9ee;
@@ -7,9 +7,10 @@
     --orange2:#f5b041;
     --orange-int:#d35400;
     --red:#ef5539;
+    --bg-box:rgba(246, 239, 223, 0);
 
     --kaushan:'Kaushan Script', cursive;
-    --windsong:'WindSong', cursive;
+    --windsong:'Source Sans Pro', sans-serif;
 }
 *{
     margin: 0;
@@ -105,7 +106,7 @@ main{
             -20px -20px 60px #ffffff;
 }
 .portada-img h3{
-    font-family: var(--windsong);
+    font-family: var(--kaushan);
     margin-top: 20px;
     font-size: 25px;
     text-align: center;
@@ -132,12 +133,12 @@ main{
 }
 #sobreMi h1{
     text-align: center;
-    font-family: var(--windsong);
+    font-family: var(--kaushan);
     color: var(--red);
     font-size: 45px;
 }
 #sobreMi p{
-    font-family: var(--kaushan);
+    font-family: var(--windsong);
     color: var(--orange2);
     width: 100%;
     text-align: center;
@@ -145,9 +146,10 @@ main{
 }
 #sobreMi h3{
     text-align: center;
-    font-family: var(--windsong);
+    font-family: var(--kaushan);
     color: var(--red);
     font-size: 35px;
+    font: 200;
 }
 
 /****** articulos *******/
@@ -187,7 +189,7 @@ main{
     gap:10px;
 }
 .card-articulos .back h3{
-    font-family: var(--windsong);
+    font-family: var(--kaushan);
     font-size: 20px;
     color: var(--orange-int);
 }
@@ -244,6 +246,7 @@ footer{
     justify-content: space-between;
     gap: 20px;
     margin-top: 50px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 footer ul{
@@ -272,4 +275,80 @@ footer p span{
     font: 500;
     font-size: 15px;
     letter-spacing: 2px;
+}
+/************ page info  *********/
+#info-page{
+    margin-top: -100px;
+    gap: 40px;
+}
+#info-page #articulos{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    width: 1200px;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+#info-page .articulos-sombreros{
+    background-color: rgb(229, 229, 229);
+    display: grid;
+    width: 80%;
+    height: 100%;
+    border: solid 2px var(--orange);
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+#info-page .articulos-sombreros img{
+    width: 150px;
+    height: 150px;
+    border-radius: 220px;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+#info-page .articulos-sombreros img:hover{
+    scale: 1.5;
+    transition: 1s;
+}
+#info-page .articulos-sombreros-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.articulos-sombreros-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.articulos-sombreros-texto h3{
+    color: var(--orange-int);
+    font-size: 25px;
+    text-align: center;
+    font-family: var(--kaushan);
+}
+.articulos-sombreros-texto p{
+    color: var(--orange);
+    font-family: var(--windsong);
+    width: 420px;
+    text-align: center;
+}
+.articulos-sombreros-texto a{
+    padding: 10px;
+    border: solid var(--orange2) 2px;
+    border-radius: 15px;
+    color: var(--orange-int);
+    transition: 1s;
+    font-family: var(--kaushan);
+}
+.articulos-sombreros-texto a:hover{
+    background-color: var(--orange);
+    color: var(--orange-int);
+    scale: 1.4;
+    transition: 1s;
 }
