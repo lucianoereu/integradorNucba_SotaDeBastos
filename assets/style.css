@@ -59,14 +59,15 @@ header{
     align-items: center;
 }
 .nav-bar-list li a{
-    color: var(--orange);
-    font-family: var(--kaushan)
+    color: var(--orange-int);
+    font-family: var(--kaushan);
+    font-size: 20px;
 }
 .nav-bar-list li:hover{
     transform: scale(1.1);
 }
 .nav-bar-list li a:hover{
-    color: var(--orange-int);
+    color: var(--orange);
 }
 .here{
     text-decoration: overline;
@@ -409,4 +410,53 @@ header p{
     font-size: 20px;
     color: var(--orange-int);
     font-family: var(--kaushan);
+}
+
+/******* contactos **********/
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto-map{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.contacto-map iframe{
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    border-radius: 25px;
+    width: 400px;
+    height: 400px;
+}
+
+.contacto-map-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.contacto-map-info h2{
+    text-align: center;
+    font-family: var(--kaushan);
+    color: var(--orange-int);
+    font-size: 35px;
+}
+.contacto-map-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.contacto-map-info ul li a {
+    color: var(--black);
+    font-size: 20px;
+}
+.contacto-map-info ul li a:hover{
+    color: var(--orange-int);
+}
+.contacto-map-info ul li{
+    list-style: none;
 }
