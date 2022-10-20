@@ -74,6 +74,10 @@ header{
     color: var(--orange-int);
     font-weight: 800;
 }
+#menu-toggle,
+.menu-label {
+  display: none;
+}
 /************** main ***************/
 
 main{
@@ -141,7 +145,7 @@ main{
 }
 #sobreMi p{
     font-family: var(--windsong);
-    color: var(--orange2);
+    color: var(--black);
     width: 100%;
     text-align: center;
     font-size: 25px;
@@ -233,10 +237,13 @@ main{
 #masSobreMi{
     display: flex;
     width: 1200px;
+    align-items: center;
+    justify-content: center;
 }
 #masSobreMi p{
     color: var(--orange);
     font-family: var(--kaushan);
+   
 }
 
 /******* footer*******/
