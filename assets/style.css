@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Source+Sans+Pro:wght@200;300;400&display=swap');
 :root{
     --orange:#f39c12;
-    --white:#e1e9ee;
+    --white:#E1E9EE;
     --yellow:#f4d03f;
-    --black:#1c2833;
+    --black:#6e3f05;
     --orange2:#f5b041;
     --orange-int:#d35400;
     --red:#ef5539;
-    --bg-box:rgba(246, 239, 223, 0);
+    --orange-int2:#873a06;
+    --bg-box:#200f05;
 
     --kaushan:'Kaushan Script', cursive;
     --windsong:'Source Sans Pro', sans-serif;
@@ -59,7 +60,7 @@ header{
     align-items: center;
 }
 .nav-bar-list li a{
-    color: var(--orange-int);
+    color: var(--black);
     font-family: var(--kaushan);
     font-size: 20px;
 }
@@ -67,7 +68,7 @@ header{
     transform: scale(1.1);
 }
 .nav-bar-list li a:hover{
-    color: var(--orange);
+    color: var(--orange-int);
 }
 .here{
     text-decoration: overline;
@@ -117,7 +118,7 @@ main{
     font-size: 25px;
     text-align: center;
     min-width: 500px;
-    background: linear-gradient(to top, var(--orange-int), var(--orange));
+    background-color: var(--orange-int2);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -129,7 +130,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: baseline;
-    border: solid var(--orange);
+    border: solid var(--orange-int);
     width: 900px;
     padding: 20px;
     gap: 20px;
@@ -137,10 +138,11 @@ main{
     background: linear-gradient(315deg,var(--white), #f9f2f2 , 0.3); 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+
 #sobreMi h1{
     text-align: center;
     font-family: var(--kaushan);
-    color: var(--red);
+    color: var(--orange-int2);
     font-size: 45px;
 }
 #sobreMi p{
@@ -153,9 +155,21 @@ main{
 #sobreMi h3{
     text-align: center;
     font-family: var(--kaushan);
-    color: var(--red);
+    color: var(--orange-int2);
     font-size: 35px;
     font: 200;
+}
+#sobreMi a{
+    padding: 10px;
+    border-radius: 25px;
+    border: solid var(--orange) 2px;;
+    color: #d35400;
+}
+#sobreMi a:hover{
+    background-color: var(--orange);
+    border: var(--orange) 2px solid;
+    color: var(--white);
+    scale: 1.1;
 }
 
 /****** articulos *******/
@@ -241,7 +255,7 @@ main{
     justify-content: center;
 }
 #masSobreMi p{
-    color: var(--orange);
+    color: var(--orange-int);
     font-family: var(--kaushan);
     font-size: 45px;
 }
@@ -265,7 +279,7 @@ footer ul{
     list-style: none;
 }
 footer ul a{
-    color: var(--red);
+    color: var(--orange-int2);
     font-size: 25px;
 }
 footer ul li:hover{
