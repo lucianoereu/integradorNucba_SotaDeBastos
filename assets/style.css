@@ -243,6 +243,7 @@ main{
 #masSobreMi p{
     color: var(--orange);
     font-family: var(--kaushan);
+    font-size: 45px;
 }
 
 /******* footer*******/
