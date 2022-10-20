@@ -243,7 +243,6 @@ main{
 #masSobreMi p{
     color: var(--orange);
     font-family: var(--kaushan);
-   
 }
 
 /******* footer*******/
@@ -349,7 +348,7 @@ header p{
     font-family: var(--kaushan);
 }
 .articulos-sombreros-texto p{
-    color: var(--orange);
+    color: var(--black);
     font-family: var(--windsong);
     width: 420px;
     text-align: center;
