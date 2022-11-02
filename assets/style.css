@@ -18,8 +18,8 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-/*     border: solid 2px red; 
- */}
+    border: solid 2px red; 
+}
 body{
     background-color: var(--white);
 }
