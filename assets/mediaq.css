@@ -47,7 +47,10 @@
     border: solid 2px var(--orange-int2);
     border-radius: 15px;
     padding: 5px;
+    background-color: var(--white);
+    
   }
+  
   
   #menu-toggle:checked + .nav-bar-list {
     display: flex;
