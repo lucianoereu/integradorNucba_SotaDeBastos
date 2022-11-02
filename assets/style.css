@@ -18,7 +18,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    border: solid 2px red; 
+   /*  border: solid 2px red; */ 
 }
 body{
     background-color: var(--white);
@@ -385,7 +385,7 @@ header p{
 /***** una manera de andar  ****/
 #tienda{
     display: grid;
-    grid:auto/ 200px 200px 200px 200px;
+    grid:auto/ 300px 300px 300px ;
     align-items: center;
     justify-content: center;
     gap: 60px;
@@ -401,7 +401,7 @@ header p{
     transition: 1s;
 }
 .container-tienda .front img{
-    width: 180px;
+    width: 250px;
     border-radius: 15px;
 }
 .container-tienda .front{

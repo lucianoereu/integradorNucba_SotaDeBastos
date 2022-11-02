@@ -91,5 +91,17 @@
     justify-items: center;
     margin: auto;
   }
-  
+  /****** forma de andar  *******/
+  #tienda{
+    max-width: 100%;
+    grid:auto/ 200px 200px  
+  }
+ 
+.contacto-map{
+  max-width: 50%;
+  max-height: 50%;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
 }
