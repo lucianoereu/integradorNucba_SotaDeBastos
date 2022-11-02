@@ -1,23 +1,85 @@
-@media (max-width: 992px){
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+:root{
+    --orange:#f39c12;
+    --white:#E1E9EE;
+    --yellow:#f4d03f;
+    --black:#6e3f05;
+    --orange2:#f5b041;
+    --orange-int:#d35400;
+    --red:#ef5539;
+    --orange-int2:#873a06;
+    --bg-box:#200f05;
 
-    /* .nav-bar-list {
-        position: absolute;
-        top: 65px;
-        left: 5%;
-        right: 5%;
-        width: 90%;
-        flex-direction: column;
-        background: var(--nav-bg);
-        border: 2px solid var(--electric);
-        border-top: 0px;
-        border-radius: 0px 0px 15px 15px;
-        align-items: flex-start;
-        padding: 45px 30px;
-        gap: 25px;
-        z-index: 2;
-        display: none;
-      }
-    #menu-toggle:checked + .nav-bar-list {
-        display: flex;
-      } */
+    --kaushan:'Kaushan Script', cursive;
+    --windsong:'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 990px){
+
+  header{
+    max-width: 100%;
+    display: flex;
+  }
+  .nav-bar{
+    max-width: 95%;
+  }
+  .nav-bar-list {
+    position:absolute;
+    top: 0px;
+    right: 5%;
+    width: 90%;
+    align-items: flex-start;
+    flex-direction: column;
+    border-top: 0px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+  }
+  
+  .menu-label{
+    max-width: 100%;
+    max-height: 50%;
+    display: inline;
+    font-size: 45px;
+    color: var(--orange-int2);
+  }
+  
+  #menu-toggle:checked + .nav-bar-list {
+    display: flex;
+    
+  }
+
+  .portada-img{
+    max-width: 100%;
+    }
+  .portada-img h3{
+    font-size: 18px;
+  }
+
+  #sobreMi{
+    max-width: 80%;
+  }
+  #articulos{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .articulos{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .back{
+    justify-content:center ;
+    max-height: 40%;
+  }
+  #masSobreMi{
+    max-width: 80%;
+  }
 }
