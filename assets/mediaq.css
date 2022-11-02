@@ -113,6 +113,9 @@
     max-width: 100%;
     
   }
+  .portada-img img{
+    width: 245px;
+  }
 
   .portada-img h3{
     font-size: 10px;
