@@ -145,4 +145,8 @@
   .contacto-map iframe{
     width: auto;
   }
+  .contacto-map-info ul li a{
+   width: auto;
+   font-size: small;
+  }
 }
