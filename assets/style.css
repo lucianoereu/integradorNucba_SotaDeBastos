@@ -18,8 +18,8 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-/*     border: solid 2px red; 
- */}
+   /*  border: solid 2px red; */ 
+}
 body{
     background-color: var(--white);
 }
@@ -380,7 +380,7 @@ header p{
 /***** una manera de andar  ****/
 #tienda{
     display: grid;
-    grid:auto/ 300px 300px 300px ;
+    grid:auto/ 300px 300px 300px 300px ;
     align-items: center;
     justify-content: center;
     gap: 60px;
@@ -411,6 +411,7 @@ header p{
     transform: perspective(500px) rotateY(180deg);
     display: flex;
     width: 200px;
+    height: auto;
     align-items: center;
     justify-content: center;
     gap:10px;
@@ -430,6 +431,9 @@ header p{
     font-size: 20px;
     color: var(--orange-int);
     font-family: var(--kaushan);
+    border: 2px solid var(--orange-int2);
+    padding:  0 5px;   
+    border-radius: 20px;
 }
 
 /******* contactos **********/
