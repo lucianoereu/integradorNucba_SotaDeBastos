@@ -142,4 +142,7 @@
     max-width: 100%;
     grid:auto/ 200px  
   }
+  .contacto-map iframe{
+    width: auto;
+  }
 }
