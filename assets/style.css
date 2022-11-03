@@ -175,7 +175,7 @@ main{
     gap: 40px;
 }
 .card-articulos{
-    display: grid;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -202,7 +202,6 @@ main{
     transform: perspective(500px) rotateY(180deg);
     display: flex;
     width: 200px;
-    gap:10px;
 }
 .card-articulos .back h3{
     font-family: var(--kaushan);
@@ -395,6 +394,7 @@ header p{
     justify-content: center;
     backface-visibility: hidden;
     transition: 1s;
+    
 }
 .container-tienda .front img{
     width: 250px;
@@ -411,7 +411,10 @@ header p{
     transform: perspective(500px) rotateY(180deg);
     display: flex;
     width: 200px;
+    align-items: center;
+    justify-content: center;
     gap:10px;
+    
 }
 
 .container-tienda .back p{
