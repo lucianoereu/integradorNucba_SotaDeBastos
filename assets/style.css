@@ -243,11 +243,18 @@ main{
     scale: 1.1;
 }
 
-#masSobreMi{
+#sombreroNuevo{
     display: flex;
-    width: 1200px;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
+    border: solid var(--orange-int);
+    width: 900px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 15px;
+    background: linear-gradient(315deg,var(--white), #f9f2f2 , 0.3); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 #masSobreMi p{
     color: var(--orange-int);
