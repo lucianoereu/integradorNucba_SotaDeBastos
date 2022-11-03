@@ -46,9 +46,6 @@ header{
     height: 540px;
     position: relative;
     top: 60px;
-    border: solid 2px var(--bg-box);
-    border-radius: 100px;
-    padding: 0;
 }
 
 .nav-bar{
