@@ -171,7 +171,14 @@ main{
 #sobreMi img{
     width: 350px;
     height: 350px;
-
+    border-radius: 20px;
+}
+#sobreMi .sobreMi-img3{
+    width: 400px;
+    height: 500px;
+}
+#sobreMi .sobreMi-p{
+    font-weight: 600;
 }
 /****** articulos *******/
 .articulos{
