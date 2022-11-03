@@ -180,6 +180,9 @@ main{
 #sobreMi .sobreMi-p{
     font-weight: 600;
 }
+#sobreMi p span{
+    font-weight: 600;
+}
 /****** articulos *******/
 .articulos{
     display: flex;
