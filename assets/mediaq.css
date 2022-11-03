@@ -81,6 +81,10 @@
     justify-items: center;
   }
   
+  .articulos-sombreros-texto p{
+    font-size: 18px;
+    width: auto;
+  }
   .back{
     justify-content:center ;
     max-height: 40%;
@@ -127,5 +131,10 @@
     font-size: 10px;
     max-width: 10%;
     display: none;
+  }
+
+  #tienda{
+    max-width: 100%;
+    grid:auto/ 200px  
   }
 }
