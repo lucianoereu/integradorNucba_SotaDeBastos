@@ -168,6 +168,11 @@ main{
     scale: 1.1;
 }
 
+#sobreMi img{
+    width: 350px;
+    height: 350px;
+
+}
 /****** articulos *******/
 .articulos{
     display: flex;
