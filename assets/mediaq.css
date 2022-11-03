@@ -19,23 +19,25 @@
   header{
     max-width: 100%;
     display: flex;
+    
   }
   .nav-bar{
     max-width: 95%;
   }
   .nav-bar-list {
     position:absolute;
-    top: 0px;
-    right: 2%;
+    top: 110%;
+    right: 15%;
     width: 90%;
     align-items: flex-start;
     flex-direction: column;
     border-top: 0px;
     border-radius: 0px 0px 15px 15px;
-    padding: 45px 30px;
+    padding: 8px 45px;
     gap: 10px;
     z-index: 2;
     display: none;
+    background-color: var(--white);
   }
  
   .menu-label{
@@ -48,7 +50,6 @@
     border-radius: 15px;
     padding: 5px;
     background-color: var(--white);
-    
   }
   
   
@@ -118,6 +119,9 @@
 @media (max-width: 576px) {
   .logo{
     max-width: 100%;
+  }
+  .nav-bar-list{
+    padding: 5px 30px;
   }
   .portada-img{
     max-width: 100%;
