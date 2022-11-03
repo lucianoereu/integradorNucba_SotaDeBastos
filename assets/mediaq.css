@@ -60,6 +60,9 @@
   .portada-img{
     max-width: 100%;
     }
+    .portada-img img{
+     width: 450px;
+    }
   .portada-img h3{
     font-size: 18px;
   }
@@ -124,13 +127,14 @@
     
   }
   .portada-img img{
-    width: 245px;
+    width: 255px;
   }
 
   .portada-img h3{
-    font-size: 10px;
-    max-width: 10%;
-    display: none;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+
   }
 
   #tienda{

@@ -86,7 +86,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 125px;
+    gap: 110px;
 }
 /*** portada ***/
 
@@ -104,6 +104,7 @@ main{
     align-items: center;
     width: 100%;
     gap: 10px;
+    margin-bottom: -50px;
 }
 .portada-img img{
     width: 40%;
@@ -114,14 +115,9 @@ main{
 }
 .portada-img h3{
     font-family: var(--kaushan);
-    margin-top: 20px;
     font-size: 25px;
     text-align: center;
-    min-width: 500px;
-    background-color: var(--orange-int2);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: var(--bg-box)
 }
 /*******sobre mi  *******/
 
