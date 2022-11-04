@@ -18,7 +18,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    border: solid 2px red; 
+    /* border: solid 2px red */; 
 }
 body{
     background-color: var(--white);
@@ -399,7 +399,7 @@ header p{
     scale: 1.2;
     transition: 1s;
 }
-/***** una manera de andar  ****/
+/***** talles ****/
 #tienda{
     display: flex;
     align-items: center;
