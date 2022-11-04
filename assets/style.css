@@ -18,7 +18,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-   /*  border: solid 2px red; */ 
+    /* border: solid 2px red;  */
 }
 body{
     background-color: var(--white);
@@ -188,6 +188,8 @@ main{
     display: flex;
     width: 1200px;
     gap: 40px;
+    align-items: center;
+    justify-content: center;
 }
 .card-articulos{
     display: flex;
@@ -217,6 +219,7 @@ main{
     transform: perspective(500px) rotateY(180deg);
     display: flex;
     width: 200px;
+    height: auto;
 }
 .card-articulos .back h3{
     font-family: var(--kaushan);
