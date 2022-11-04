@@ -27,8 +27,8 @@
   .nav-bar-list {
     position:absolute;
     top: 120%;
-    right: 15%;
-    width: 90%;
+    right: 55%;
+    width: 50%;
     align-items: flex-start;
     flex-direction: column;
     border-top: 0px;
@@ -93,7 +93,6 @@
   #masSobreMi{
     max-width: 80%;
   }
-  /******  articulos ******/
   
   /****** forma de andar  *******/
   #info-page #articulos{
@@ -105,7 +104,7 @@
   }
   #info-page #articulos .articulos-sombreros{
    max-width: 100%;
-   width: 400px;
+   width: 300px;
   }
  
  
@@ -178,4 +177,3 @@
    width: auto;
    font-size: small;
   }
-}
