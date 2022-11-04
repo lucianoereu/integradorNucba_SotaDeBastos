@@ -18,7 +18,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    /* border: solid 2px red;  */
+    border: solid 2px red; 
 }
 body{
     background-color: var(--white);
@@ -323,8 +323,8 @@ footer p span{
 header h1{
     text-align: center;
     font-family: var(--kaushan);
-    font-size: 55px;
-    color: var(--red);
+    font-size: 65px;
+    color: var(--bg-box);
 }
 header p{
     color: var(--black);
@@ -335,34 +335,30 @@ header p{
 
 #info-page #articulos{
     display: grid;
-    grid: auto/  600px 600px;
-    margin-left: 115px;
-    grid-gap:  60px 0;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    grid: auto/ 500px 500px;
+    grid-gap:60px;
 }
 #info-page .articulos-sombreros{
     background-color: rgb(229, 229, 229);
     display: grid;
-    width: 80%;
     height: 100%;
     border: solid 2px var(--orange);
     border-radius: 20px;
-    padding: 20px;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    grid-gap: 20px;
+    padding: 20px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 #info-page .articulos-sombreros img{
-    width: 150px;
-    height: 150px;
-    border-radius: 220px;
-    transition: 1s;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
 }
-#info-page .articulos-sombreros img:hover{
-    scale: 1.5;
-    transition: 1s;
-}
+
 #info-page .articulos-sombreros-img{
     display: flex;
     flex-direction: column;
@@ -374,6 +370,7 @@ header p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 .articulos-sombreros-texto h3{
@@ -385,7 +382,7 @@ header p{
 .articulos-sombreros-texto p{
     color: var(--black);
     font-family: var(--windsong);
-    width: 420px;
+    width: 320px;
     text-align: center;
 }
 .articulos-sombreros-texto a{
@@ -404,61 +401,45 @@ header p{
 }
 /***** una manera de andar  ****/
 #tienda{
-    display: grid;
-    grid:auto/ 300px 300px 300px 300px ;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
 }
-.container-tienda div{
-    width: 100%;
-    height: 100%;
+#tienda h2, h3{
+    font-weight: 600;
+    font-size: 65px;
+    color: var(--black);
+}
+.talles{
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
     align-items: center;
     justify-content: center;
-    backface-visibility: hidden;
-    transition: 1s;
-    
-}
-.container-tienda .front img{
-    width: 250px;
-    border-radius: 15px;
-}
-.container-tienda .front{
-    transform: perspective(500px) rotateY(0deg);
-}
-.container-tienda:hover .front{
-    transform: perspective(500px) rotateY(180deg);
-}
-.container-tienda .back{
-    position: absolute;
-    transform: perspective(500px) rotateY(180deg);
-    display: flex;
-    width: 200px;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    gap:10px;
-    
-}
-
-.container-tienda .back p{
-    font-size: 15px;
-    color: var(--orange);
-    font-family: var(--kaushan);
+    gap: 50px;
     text-align: center;
 }
-.container-tienda:hover .back{
-    transform: perspective(500px) rotateY(360deg);
+.talles p{
+    font-size: 25px;
+    color: var(--orange-int2);
 }
-.container-tienda .back a{
-    font-size: 20px;
-    color: var(--orange-int);
-    font-family: var(--kaushan);
-    border: 2px solid var(--orange-int2);
-    padding:  0 5px;   
-    border-radius: 20px;
+.talles p span{
+    font-weight:700;
+}
+.talles-img{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.talles-img img{
+    width: 250px;
+    height: 300px;
+    border: 1px solid var(--bg-box);
+    padding: 0;
+    border-radius: 15px;
 }
 
 /******* contactos **********/

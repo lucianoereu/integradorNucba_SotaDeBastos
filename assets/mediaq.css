@@ -144,8 +144,31 @@
   }
 
   #tienda{
+    max-width: 100%; 
+    width: auto;
+  }
+  .talles h2,h3{
+    font-size: 25px;
     max-width: 100%;
-    grid:auto/ 200px  
+    width: auto;
+  }
+  .talles{
+    max-width: 100%;
+  }
+  .talles-img{
+    display: flex;
+    flex-direction: column;
+  }
+  .talles-img img{
+    max-width: 100%;
+    width: auto;
+  }
+  }
+  .talles p{
+    width: 80%;
+  }
+  #info-page .articulos-sombreros img{
+    width: auto;
   }
   .contacto-map iframe{
     width: auto;
