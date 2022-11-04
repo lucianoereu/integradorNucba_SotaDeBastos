@@ -278,6 +278,7 @@ main{
     color: var(--orange-int);
     font-family: var(--kaushan);
     font-size: 45px;
+    font-weight: 700;
 }
 
 /******* footer*******/

@@ -94,7 +94,8 @@
     max-width: 80%;
   }
   /******  articulos ******/
-
+  
+  /****** forma de andar  *******/
   #info-page #articulos{
     max-width: 100%;
     display: flex;
@@ -102,11 +103,11 @@
     justify-items: center;
     margin: auto;
   }
-  /****** forma de andar  *******/
-  #tienda{
-    max-width: 100%;
-    grid:auto/ 200px 200px  
+  #info-page #articulos .articulos-sombreros{
+   max-width: 100%;
+   width: 400px;
   }
+ 
  
 .contacto-map{
   max-width: 50%;
