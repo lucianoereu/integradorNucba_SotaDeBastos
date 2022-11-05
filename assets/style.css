@@ -18,7 +18,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    /* border: solid 2px red */; 
+    border: solid 2px red; 
 }
 body{
     background-color: var(--white);
@@ -484,4 +484,62 @@ header p{
 }
 .contacto-map-info ul li{
     list-style: none;
+}
+/***** form ********/
+#formularios{
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+#formularios form h2{
+    font-size: 25px;
+    font-style: var(--kaushan);
+    text-decoration: underline;
+    color: var(--black);
+}
+
+.form-in form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 302px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px;
+    border-radius: 35px;
+}
+.form-input{
+    text-align: center;
+    border-radius: 35px;
+    padding: 5px;
+    border: 1px solid var(--orange-int2);
+}
+.btn--submit{
+    border:solid 1px var(--orange);
+    font-family: var(--kaushan);
+    color: var(--orange-int);
+    padding: 2px 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: 1s;
+}
+.btn--submit:hover{
+    transform: scale(1.2);
+    background-color: var(--orange);
+}
+
+.form-up form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 402px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 35px;
+    width: 300px;
 }
